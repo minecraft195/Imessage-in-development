@@ -25,7 +25,7 @@ function redirect()
 {
   console.log(name);
   localStorage.setItem("room_name", name)
-  window.location="kwitter_page.html";
+  window.location="Imessage_page.html";
 }
 function addRoom()
 {
@@ -37,7 +37,7 @@ function addRoom()
 
      localStorage.setItem("room_name", room_name);
 
-     window.location = "kwitter_page.html";
+     window.location = "Imessage_page.html";
 }
 
 function redirectToRoomName(name)
@@ -45,7 +45,7 @@ function redirectToRoomName(name)
      console.log(name);
      localStorage.setItem("room_name", name);
 
-     window.location = "kwitter_page.html";
+     window.location = "Imessage_page.html";
 }
 
 function logout()
@@ -53,5 +53,5 @@ function logout()
              localStorage.removeItem("user_name");
              localStorage.removeItem("room_name");
 
-             window.location = "kwitter.html";
+             window.location = "index.html";
        }
